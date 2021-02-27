@@ -6,13 +6,16 @@ import subprocess
 from datetime import datetime
 
 parser = argparse.ArgumentParser(description='Compile and pack escape mod')
-parser.add_argument('-c', '--config_file', help='Specify config file to use', default='config.json')
+parser.add_argument('--mod', help='Specify mod to use', default='')
+parser.add_argument('-m', '--mission', help='Specify mission to use', default='')
+parser.add_argument('-i', '--island', help='Specify island to use', default='')
+parser.add_argument('-a', '--addon', help='Specify addon to use', default='')
 parser.add_argument('-f', '--full',help='Compile and pack mods', default=False, action="store_true")
 
 args = parser.parse_args()
 
-print('Loading config for ' + args.config_file + ' ...') 
-with open('Configs/' + args.config_file) as json_data_file:
+print('Loading config ...') 
+with open('Configs/config.json') as json_data_file:
     data = json.load(json_data_file)
 mods = data['Mods'];
 islands = data['Islands']
@@ -30,9 +33,36 @@ for scfg in data['Subconfigs']:
 #if os.environ['GIT_BRANCH'] == "develop":
 data['replace']['VERSION'] += ' dev ' + datetime.today().strftime("%y%m%d %H%M")
 data['replace']['RELEASE'] = 'Mission'
-cpbo = data['cpbo'];
 
-print('making DIR?')
+if args.mod != '':
+    print("Filter mods with " + args.mod)
+    mods = [m for m in mods if m['name'] == args.mod]
+    if mods==[]:
+        print("Error No match for mod " + args.mod)
+        exit()
+if args.island != '':
+    print("Filter islands with " + args.island)
+    islands = [m for m in islands if m['name'] == args.island]
+    if islands==[]:
+        print("Error No match for island " + args.island)
+        exit()
+if args.mission != '':
+    print("Filter missions with " + args.mission)
+    missions = [m for m in missions if m['name'] == args.mission]
+    if missions==[]:
+        print("Error No match for mission " + args.mission)
+        exit()
+    #Filter mission by island too
+    if args.island != '':
+        missions = [m for m in missions if m['island'] == args.island]
+if args.addon != '':
+    print("Filter addons with " + args.addon)
+    addons = [m for m in addons if m['name'] == args.addon]
+    if addons==[]:
+        print("Error No match for addon " + args.addon)
+        exit()
+
+print('making DIR')
 for directory in [data['BuildDir'], data['PackedDir'], data['PackedDir']+'/Addons', data['PackedDir']+'/Missions']:
     print('making DIR... : ', directory)
     if not os.path.exists(directory):

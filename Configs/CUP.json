@@ -1,0 +1,2153 @@
+{
+	"ParsedFiles" : [],
+	"Mods" : [
+		{
+			"name" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"path" : "./Mods/CUP Desert GER vs Taki Army-Taki GUE/",
+			"require" : ["CUP_Creatures_Military_Germany","CUP_Creatures_Military_Taki","CUP_Creatures_Military_TakiInsurgents"],
+			"replace" :
+				{
+					"MOD" : "CUP Desert GER vs Taki Army and Taki Rebels",
+					"PLAYERSIDE" : "WEST",
+					"PLAYERUNIT_1" : "CUP_B_GER_Soldier_TL",
+					"PLAYERUNIT_2" : "CUP_B_GER_Soldier_AT",
+					"PLAYERUNIT_3" : "CUP_B_GER_Soldier_AA",
+					"PLAYERUNIT_4" : "CUP_B_GER_Soldier_Engineer",
+					"PLAYERUNIT_5" : "CUP_B_GER_Soldier_GL",
+					"PLAYERUNIT_6" : "CUP_B_Ger_Soldier_MG",
+					"PLAYERUNIT_7" : "CUP_B_GER_Soldier_AT",
+					"PLAYERUNIT_8" : "CUP_B_GER_Soldier",
+					"PLAYERUNIT_9" : "CUP_B_GER_Soldier_Sniper",
+					"PLAYERUNIT_10" : "CUP_B_GER_Medic"
+				}
+		},
+		{
+			"name" : "CUP Sahrani USMC vs SLA-RACS",
+			"path" : "./Mods/CUP Sahrani USMC vs SLA-RACS/",
+			"require" : ["CUP_Creatures_Military_USMC","CUP_Creatures_Military_SLA","CUP_Creatures_Military_RACS"],
+			"replace" :
+				{
+					"MOD" : "CUP Sahrani USMC vs SLA and RACS",
+					"PLAYERSIDE" : "WEST",
+					"PLAYERUNIT_1" : "CUP_B_USMC_Soldier_SL",
+					"PLAYERUNIT_2" : "CUP_B_USMC_Soldier_HAT",
+					"PLAYERUNIT_3" : "CUP_B_USMC_Soldier_AA",
+					"PLAYERUNIT_4" : "CUP_B_USMC_Engineer",
+					"PLAYERUNIT_5" : "CUP_B_USMC_Soldier_GL",
+					"PLAYERUNIT_6" : "CUP_B_USMC_Soldier_MG",
+					"PLAYERUNIT_7" : "CUP_B_USMC_Soldier_AT",
+					"PLAYERUNIT_8" : "CUP_B_USMC_Soldier",
+					"PLAYERUNIT_9" : "CUP_B_USMC_Soldier_Marksman",
+					"PLAYERUNIT_10" : "CUP_B_USMC_Medic"
+				}
+		},
+		{
+			"name" : "CUP Woodland USMC vs RU-NAPA",
+			"path" : "./Mods/CUP Woodland USMC vs RU-NAPA/",
+			"require" : ["CUP_Creatures_Military_USMC","CUP_Creatures_Military_NAPA"],
+			"replace" :
+				{
+					"MOD" : "CUP Woodland USMC vs RU and NAPA",
+					"PLAYERSIDE" : "WEST",
+					"PLAYERUNIT_1" : "CUP_B_USMC_Soldier_SL",
+					"PLAYERUNIT_2" : "CUP_B_USMC_Soldier_HAT",
+					"PLAYERUNIT_3" : "CUP_B_USMC_Soldier_AA",
+					"PLAYERUNIT_4" : "CUP_B_USMC_Engineer",
+					"PLAYERUNIT_5" : "CUP_B_USMC_Soldier_GL",
+					"PLAYERUNIT_6" : "CUP_B_USMC_Soldier_MG",
+					"PLAYERUNIT_7" : "CUP_B_USMC_Soldier_AT",
+					"PLAYERUNIT_8" : "CUP_B_USMC_Soldier",
+					"PLAYERUNIT_9" : "CUP_B_USMC_Soldier_Marksman",
+					"PLAYERUNIT_10" : "CUP_B_USMC_Medic"
+				}
+		},
+		{
+			"name" : "CUP Woodland SLA vs USMC-NAPA",
+			"path" : "./Mods/CUP Woodland SLA vs USMC-NAPA/",
+			"require" : ["CUP_Creatures_Military_USMC","CUP_Creatures_Military_NAPA","CUP_Creatures_Military_SLA"],
+			"replace" :
+				{
+					"MOD" : "CUP Woodland SLA vs USMC and NAPA",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_sla_Soldier_SL",
+					"PLAYERUNIT_2" : "CUP_O_sla_Soldier_HAT",
+					"PLAYERUNIT_3" : "CUP_O_sla_Soldier_AA",
+					"PLAYERUNIT_4" : "CUP_O_sla_Engineer",
+					"PLAYERUNIT_5" : "CUP_O_sla_Soldier_GL",
+					"PLAYERUNIT_6" : "CUP_O_sla_Soldier_MG",
+					"PLAYERUNIT_7" : "CUP_O_sla_Soldier_AT",
+					"PLAYERUNIT_8" : "CUP_O_sla_Soldier",
+					"PLAYERUNIT_9" : "CUP_O_sla_Sniper",
+					"PLAYERUNIT_10" : "CUP_O_sla_Medic"
+				}
+		},
+		{
+			"name" : "CUP Desert RU vs US Army-ION PMC",
+			"path" : "./Mods/CUP Desert RU vs US Army-ION PMC/",
+			"require" : ["CUP_Creatures_Military_USArmy","CUP_Creatures_Military_PMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Desert RU vs US Army and ION PMC",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_RU_Soldier_SL_Ratnik_BeigeDigital",
+					"PLAYERUNIT_2" : "CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital",
+					"PLAYERUNIT_3" : "CUP_O_RU_Soldier_AA_Ratnik_BeigeDigital",
+					"PLAYERUNIT_4" : "CUP_O_RU_Soldier_Engineer_Ratnik_BeigeDigital",
+					"PLAYERUNIT_5" : "CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital",
+					"PLAYERUNIT_6" : "CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital",
+					"PLAYERUNIT_7" : "CUP_O_RU_Soldier_AT_Ratnik_BeigeDigital",
+					"PLAYERUNIT_8" : "CUP_O_RU_Soldier_Ratnik_BeigeDigital",
+					"PLAYERUNIT_9" : "CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital",
+					"PLAYERUNIT_10" : "CUP_O_RU_Soldier_Medic_Ratnik_BeigeDigital"
+				}
+		},
+		{
+			"name" : "CUP Desert RU vs BAF-ACR",
+			"path" : "./Mods/CUP Desert RU vs BAF-ACR/",
+			"require" : ["CUP_Creatures_Military_BAF","CUP_Creatures_Military_PMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Desert RU vs BAF and ACR",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_RU_Soldier_SL_Ratnik_BeigeDigital",
+					"PLAYERUNIT_2" : "CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital",
+					"PLAYERUNIT_3" : "CUP_O_RU_Soldier_AA_Ratnik_BeigeDigital",
+					"PLAYERUNIT_4" : "CUP_O_RU_Soldier_Engineer_Ratnik_BeigeDigital",
+					"PLAYERUNIT_5" : "CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital",
+					"PLAYERUNIT_6" : "CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital",
+					"PLAYERUNIT_7" : "CUP_O_RU_Soldier_AT_Ratnik_BeigeDigital",
+					"PLAYERUNIT_8" : "CUP_O_RU_Soldier_Ratnik_BeigeDigital",
+					"PLAYERUNIT_9" : "CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital",
+					"PLAYERUNIT_10" : "CUP_O_RU_Soldier_Medic_Ratnik_BeigeDigital"
+				}
+		},
+		{
+			"name" : "CUP Woodland RU vs BAF-ION PMC",
+			"path" : "./Mods/CUP Woodland RU vs BAF-ION PMC/",
+			"require" : ["CUP_Creatures_Military_BAF","CUP_Creatures_Military_PMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Woodland RU vs BAF and ION PMC",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_RU_Soldier_SL_EMR",
+					"PLAYERUNIT_2" : "CUP_O_RU_Soldier_HAT_EMR",
+					"PLAYERUNIT_3" : "CUP_O_RU_Soldier_AA_EMR",
+					"PLAYERUNIT_4" : "CUP_O_RU_Engineer_EMR",
+					"PLAYERUNIT_5" : "CUP_O_RU_Soldier_GL_EMR",
+					"PLAYERUNIT_6" : "CUP_O_RU_Soldier_MG_EMR",
+					"PLAYERUNIT_7" : "CUP_O_RU_Soldier_AT_EMR",
+					"PLAYERUNIT_8" : "CUP_O_RU_Soldier_EMR",
+					"PLAYERUNIT_9" : "CUP_O_RU_Soldier_Marksman_EMR",
+					"PLAYERUNIT_10" : "CUP_O_RU_Medic_EMR"
+				}
+		},
+		{
+			"name" : "CUP Winter RU vs CDF-ION PMC",
+			"path" : "./Mods/CUP Winter RU vs CDF-ION PMC/",
+			"require" : ["CUP_Creatures_Military_BAF","CUP_Creatures_Military_PMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Winter RU vs CDF and ION PMC",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_RU_Soldier_SL_Ratnik_Winter",
+					"PLAYERUNIT_2" : "CUP_O_RU_Soldier_LAT_Ratnik_Winter",
+					"PLAYERUNIT_3" : "CUP_O_RU_Soldier_AA_Ratnik_Winter",
+					"PLAYERUNIT_4" : "CUP_O_RU_Soldier_Engineer_Ratnik_Winter",
+					"PLAYERUNIT_5" : "CUP_O_RU_Soldier_GL_Ratnik_Winter",
+					"PLAYERUNIT_6" : "CUP_O_RU_Soldier_MG_Ratnik_Winter",
+					"PLAYERUNIT_7" : "CUP_O_RU_Soldier_AT_Ratnik_Winter",
+					"PLAYERUNIT_8" : "CUP_O_RU_Soldier_Ratnik_Winter",
+					"PLAYERUNIT_9" : "CUP_O_RU_Soldier_Marksman_Ratnik_Winter",
+					"PLAYERUNIT_10" : "CUP_O_RU_Soldier_Medic_Ratnik_Winter"
+				}
+		},
+		{
+			"name" : "CUP Woodland RU vs USMC-RACS",
+			"path" : "./Mods/CUP Woodland RU vs USMC-RACS/",
+			"require" : ["CUP_Creatures_Military_RACS","CUP_Creatures_Military_USMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Woodland RU vs USMC and RACS",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_RU_Soldier_SL_EMR",
+					"PLAYERUNIT_2" : "CUP_O_RU_Soldier_HAT_EMR",
+					"PLAYERUNIT_3" : "CUP_O_RU_Soldier_AA_EMR",
+					"PLAYERUNIT_4" : "CUP_O_RU_Engineer_EMR",
+					"PLAYERUNIT_5" : "CUP_O_RU_Soldier_GL_EMR",
+					"PLAYERUNIT_6" : "CUP_O_RU_Soldier_MG_EMR",
+					"PLAYERUNIT_7" : "CUP_O_RU_Soldier_AT_EMR",
+					"PLAYERUNIT_8" : "CUP_O_RU_Soldier_EMR",
+					"PLAYERUNIT_9" : "CUP_O_RU_Soldier_Marksman_EMR",
+					"PLAYERUNIT_10" : "CUP_O_RU_Medic_EMR"
+				}
+		},
+		{
+			"name" : "CUP Desert RU vs US Army-Taki GUE",
+			"path" : "./Mods/CUP Desert RU vs US Army-Taki GUE/",
+			"require" : ["CUP_Creatures_Military_RACS","CUP_Creatures_Military_USMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Desert RU vs US Army and Taki Rebels",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_RU_Soldier_SL_Ratnik_Desert",
+					"PLAYERUNIT_2" : "CUP_O_RU_Soldier_LAT_Ratnik_Desert",
+					"PLAYERUNIT_3" : "CUP_O_RU_Soldier_AA_Ratnik_Desert",
+					"PLAYERUNIT_4" : "CUP_O_RU_Soldier_Engineer_Ratnik_Desert",
+					"PLAYERUNIT_5" : "CUP_O_RU_Soldier_GL_Ratnik_Desert",
+					"PLAYERUNIT_6" : "CUP_O_RU_Soldier_MG_Ratnik_Desert",
+					"PLAYERUNIT_7" : "CUP_O_RU_Soldier_AT_Ratnik_Desert",
+					"PLAYERUNIT_8" : "CUP_O_RU_Soldier_Ratnik_Desert",
+					"PLAYERUNIT_9" : "CUP_O_RU_Soldier_Marksman_Ratnik_Desert",
+					"PLAYERUNIT_10" : "CUP_O_RU_Soldier_Medic_Ratnik_Desert"
+				}
+		},
+		{
+			"name" : "CUP Tropical SLA vs HIL-RACS",
+			"path" : "./Mods/CUP Tropical SLA vs HIL-RACS/",
+			"require" : ["CUP_Creatures_Military_RACS","CUP_Creatures_Military_USMC","CUP_Creatures_Military_Russia"],
+			"replace" :
+				{
+					"MOD" : "CUP Tropical SLA vs HIL and RACS",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "CUP_O_sla_Soldier_SL",
+					"PLAYERUNIT_2" : "CUP_O_sla_Soldier_HAT",
+					"PLAYERUNIT_3" : "CUP_O_sla_Soldier_AA",
+					"PLAYERUNIT_4" : "CUP_O_sla_Engineer",
+					"PLAYERUNIT_5" : "CUP_O_sla_Soldier_GL",
+					"PLAYERUNIT_6" : "CUP_O_sla_Soldier_MG",
+					"PLAYERUNIT_7" : "CUP_O_sla_Soldier_AT",
+					"PLAYERUNIT_8" : "CUP_O_sla_Soldier",
+					"PLAYERUNIT_9" : "CUP_O_sla_Sniper",
+					"PLAYERUNIT_10" : "CUP_O_sla_Medic"
+				}
+		}
+	],
+	"Islands": [],
+	"Missions" : [
+		{
+			"island" : "Altis",
+			"sqm": "Altis",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Altis",
+			"sqm": "Altis",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Altis",
+			"sqm": "Altis",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Altis",
+			"sqm": "Altis",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Stratis",
+			"sqm": "Stratis",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Stratis",
+			"sqm": "Stratis",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Stratis",
+			"sqm": "Stratis",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Stratis",
+			"sqm": "Stratis",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Tanoa",
+			"sqm": "Tanoa",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Tanoa",
+			"sqm": "Tanoa",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Tanoa",
+			"sqm": "Tanoa",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Tanoa",
+			"sqm": "Tanoa",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Tanoa",
+			"sqm": "Tanoa",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "Malden 2035",
+			"sqm": "Malden",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Malden 2035",
+			"sqm": "Malden",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Malden 2035",
+			"sqm": "Malden",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Malden 2035",
+			"sqm": "Malden",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Livonia",
+			"sqm": "Enoch",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Livonia",
+			"sqm": "Enoch",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Livonia",
+			"sqm": "Enoch",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Livonia",
+			"sqm": "Enoch",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "Weferlingen",
+			"sqm": "Weferlingen",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Weferlingen",
+			"sqm": "Weferlingen",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Weferlingen",
+			"sqm": "Weferlingen",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Weferlingen",
+			"sqm": "Weferlingen",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "WeferlingenWinter",
+			"sqm": "WeferlingenW",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "Bornholm",
+			"sqm": "Bornholm",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Bornholm",
+			"sqm": "Bornholm",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Bornholm",
+			"sqm": "Bornholm",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Bornholm",
+			"sqm": "Bornholm",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Chernarus",
+			"sqm": "Chernarus",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Chernarus",
+			"sqm": "Chernarus",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Chernarus",
+			"sqm": "Chernarus",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Chernarus",
+			"sqm": "Chernarus",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Chernarus_Summer",
+			"sqm": "Chernarus_Summer",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Chernarus_Summer",
+			"sqm": "Chernarus_Summer",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Chernarus_Summer",
+			"sqm": "Chernarus_Summer",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Chernarus_Summer",
+			"sqm": "Chernarus_Summer",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "Chernarus_2020",
+			"sqm": "Chernarus_2020",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Chernarus_2020",
+			"sqm": "Chernarus_2020",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Chernarus_2020",
+			"sqm": "Chernarus_2020",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Chernarus_2020",
+			"sqm": "Chernarus_2020",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Chernarus_Winter",
+			"sqm": "Chernarus_Winter",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "Podagorsk",
+			"sqm": "FDF_Isle1_a",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Podagorsk",
+			"sqm": "FDF_Isle1_a",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Podagorsk",
+			"sqm": "FDF_Isle1_a",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Podagorsk",
+			"sqm": "FDF_Isle1_a",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Panthera",
+			"sqm": "Panthera3",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Panthera",
+			"sqm": "Panthera3",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Panthera",
+			"sqm": "Panthera3",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Panthera",
+			"sqm": "Panthera3",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Winter Panthera",
+			"sqm": "Winthera3",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Winter Panthera",
+			"sqm": "Winthera3",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Winter Panthera",
+			"sqm": "Winthera3",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Winter Panthera",
+			"sqm": "Winthera3",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Winter Panthera",
+			"sqm": "Winthera3",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "Lingor",
+			"sqm": "Lingor3",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Lingor",
+			"sqm": "Lingor3",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Lingor",
+			"sqm": "Lingor3",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Lingor",
+			"sqm": "Lingor3",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Lingor",
+			"sqm": "Lingor3",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "Dingor",
+			"sqm": "Dingor",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Dingor",
+			"sqm": "Dingor",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Dingor",
+			"sqm": "Dingor",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Dingor",
+			"sqm": "Dingor",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Abramia",
+			"sqm": "Abramia",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Abramia",
+			"sqm": "Abramia",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Abramia",
+			"sqm": "Abramia",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Abramia",
+			"sqm": "Abramia",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Celle",
+			"sqm": "mbg_celle2",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Celle",
+			"sqm": "mbg_celle2",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Celle",
+			"sqm": "mbg_celle2",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Celle",
+			"sqm": "mbg_celle2",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Thirsk",
+			"sqm": "Thirsk",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Thirsk",
+			"sqm": "Thirsk",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Thirsk",
+			"sqm": "Thirsk",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Thirsk",
+			"sqm": "Thirsk",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Esseker",
+			"sqm": "Esseker",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Esseker",
+			"sqm": "Esseker",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Esseker",
+			"sqm": "Esseker",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Esseker",
+			"sqm": "Esseker",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Australia",
+			"sqm": "Australia",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Australia",
+			"sqm": "Australia",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Australia",
+			"sqm": "Australia",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Australia",
+			"sqm": "Australia",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Thirsk Winter",
+			"sqm": "ThirskW",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Thirsk Winter",
+			"sqm": "ThirskW",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Thirsk Winter",
+			"sqm": "ThirskW",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Thirsk Winter",
+			"sqm": "ThirskW",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Thirsk Winter",
+			"sqm": "ThirskW",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "Isla Duala",
+			"sqm": "IslaDuala3",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Isla Duala",
+			"sqm": "IslaDuala3",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Isla Duala",
+			"sqm": "IslaDuala3",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Isla Duala",
+			"sqm": "IslaDuala3",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Takistan",
+			"sqm": "Takistan",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Takistan",
+			"sqm": "Takistan",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Takistan",
+			"sqm": "Takistan",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Takistan",
+			"sqm": "Takistan",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Zargabad",
+			"sqm": "Zargabad",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Zargabad",
+			"sqm": "Zargabad",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Zargabad",
+			"sqm": "Zargabad",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Zargabad",
+			"sqm": "Zargabad",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Capraia",
+			"sqm": "IsolaDiCapraia",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Capraia",
+			"sqm": "IsolaDiCapraia",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Capraia",
+			"sqm": "IsolaDiCapraia",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+        {
+			"island" : "Capraia",
+			"sqm": "IsolaDiCapraia",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"											   
+		},
+		{
+			"island" : "Everon",
+			"sqm": "Eden",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Everon",
+			"sqm": "Eden",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Everon",
+			"sqm": "Eden",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Everon",
+			"sqm": "Eden",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Malden",
+			"sqm": "Abel",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Malden",
+			"sqm": "Abel",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Malden",
+			"sqm": "Abel",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Malden",
+			"sqm": "Abel",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Kolgujev",
+			"sqm": "Cain",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Kolgujev",
+			"sqm": "Cain",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Kolgujev",
+			"sqm": "Cain",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Kolgujev",
+			"sqm": "Cain",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Nogova",
+			"sqm": "Noe",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Nogova",
+			"sqm": "Noe",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Nogova",
+			"sqm": "Noe",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Nogova",
+			"sqm": "Noe",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Beketov",
+			"sqm": "Beketov",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Beketov",
+			"sqm": "Beketov",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Beketov",
+			"sqm": "Beketov",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Beketov",
+			"sqm": "Beketov",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Isles of Cumbrae",
+			"sqm": "rof_isles_of_cumbrae",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Isles of Cumbrae",
+			"sqm": "rof_isles_of_cumbrae",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Isles of Cumbrae",
+			"sqm": "rof_isles_of_cumbrae",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Isles of Cumbrae",
+			"sqm": "rof_isles_of_cumbrae",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Rosche",
+			"sqm": "Rosche",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Rosche",
+			"sqm": "Rosche",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Rosche",
+			"sqm": "Rosche",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Rosche",
+			"sqm": "Rosche",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Schwemlitz",
+			"sqm": "Schwemlitz",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Schwemlitz",
+			"sqm": "Schwemlitz",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Schwemlitz",
+			"sqm": "Schwemlitz",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Schwemlitz",
+			"sqm": "Schwemlitz",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Clafghan",
+			"sqm": "Clafghan",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Clafghan",
+			"sqm": "Clafghan",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Clafghan",
+			"sqm": "Clafghan",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+        {
+			"island" : "Clafghan",
+			"sqm": "Clafghan",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"											   
+		},
+		{
+			"island" : "Al Rayak",
+			"sqm": "pja310",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Al Rayak",
+			"sqm": "pja310",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Al Rayak",
+			"sqm": "pja310",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Al Rayak",
+			"sqm": "pja310",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Lythium",
+			"sqm": "Lythium",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Lythium",
+			"sqm": "Lythium",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Lythium",
+			"sqm": "Lythium",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Lythium",
+			"sqm": "Lythium",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Fallujah",
+			"sqm": "Fallujah",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Fallujah",
+			"sqm": "Fallujah",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Fallujah",
+			"sqm": "Fallujah",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Fallujah",
+			"sqm": "Fallujah",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Sahrani",
+			"sqm": "Sara",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Sahrani",
+			"sqm": "Sara",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Sahrani",
+			"sqm": "Sara",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Sahrani",
+			"sqm": "Sara",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Sahrani",
+			"sqm": "Sara",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "Sahrani",
+			"sqm": "Sara",
+			"mod" : "CUP Sahrani USMC vs SLA-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Sahrani_USMC_vs_SLA_and_RACS"
+		},
+		{
+			"island" : "United Sahrani",
+			"sqm": "Sara_dbe1",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "United Sahrani",
+			"sqm": "Sara_dbe1",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "United Sahrani",
+			"sqm": "Sara_dbe1",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "United Sahrani",
+			"sqm": "Sara_dbe1",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "United Sahrani",
+			"sqm": "Sara_dbe1",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "United Sahrani",
+			"sqm": "Sara_dbe1",
+			"mod" : "CUP Sahrani USMC vs SLA-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Sahrani_USMC_vs_SLA_and_RACS"
+		},
+		{
+			"island" : "Diyala",
+			"sqm": "DYA",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Diyala",
+			"sqm": "DYA",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Diyala",
+			"sqm": "DYA",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Diyala",
+			"sqm": "DYA",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Kastellorizo",
+			"sqm": "Kastellorizo",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Kastellorizo",
+			"sqm": "Kastellorizo",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Kastellorizo",
+			"sqm": "Kastellorizo",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Kastellorizo",
+			"sqm": "Kastellorizo",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Kerama",
+			"sqm": "Kerama",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Kerama",
+			"sqm": "Kerama",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Kerama",
+			"sqm": "Kerama",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Kerama",
+			"sqm": "Kerama",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Valtatie 5",
+			"sqm": "VT5",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Valtatie 5",
+			"sqm": "VT5",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Valtatie 5",
+			"sqm": "VT5",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Valtatie 5",
+			"sqm": "VT5",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Ruha",
+			"sqm": "Ruha",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Ruha",
+			"sqm": "Ruha",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Ruha",
+			"sqm": "Ruha",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Ruha",
+			"sqm": "Ruha",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "Vinjesvingen",
+			"sqm": "vinjesvingen",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Vinjesvingen",
+			"sqm": "vinjesvingen",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Vinjesvingen",
+			"sqm": "vinjesvingen",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Vinjesvingen",
+			"sqm": "vinjesvingen",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Cham",
+			"sqm": "Cham",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Cham",
+			"sqm": "Cham",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Cham",
+			"sqm": "Cham",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Cham",
+			"sqm": "Cham",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "ChamW",
+			"sqm": "ChamW",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"						   
+		},
+        {
+			"island" : "Summa",
+			"sqm": "Summa",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Summa",
+			"sqm": "Summa",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Summa",
+			"sqm": "Summa",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Summa",
+			"sqm": "Summa",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "SummaW",
+			"sqm": "SummaW",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "Ihantala",
+			"sqm": "Ihantala",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Ihantala",
+			"sqm": "Ihantala",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Ihantala",
+			"sqm": "Ihantala",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Ihantala",
+			"sqm": "Ihantala",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "IhantalaW",
+			"sqm": "IhantalaW",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+        {
+			"island" : "Mull of Kintyre",
+			"sqm": "rof_mok",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Mull of Kintyre",
+			"sqm": "rof_mok",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Mull of Kintyre",
+			"sqm": "rof_mok",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Mull of Kintyre",
+			"sqm": "rof_mok",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Fapovo",
+			"sqm": "Fapovo",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"					 
+		},
+		{
+			"island" : "Fapovo",
+			"sqm": "Fapovo",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Fapovo",
+			"sqm": "Fapovo",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Fapovo",
+			"sqm": "Fapovo",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+        {
+			"island" : "Prei Khmaoch Luong Legacy",
+			"sqm": "prei_khmaoch_luong",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Prei Khmaoch Luong Legacy",
+			"sqm": "prei_khmaoch_luong",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Prei Khmaoch Luong Legacy",
+			"sqm": "prei_khmaoch_luong",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Prei Khmaoch Luong Legacy",
+			"sqm": "prei_khmaoch_luong",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Prei Khmaoch Luong Legacy",
+			"sqm": "prei_khmaoch_luong",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "Prei Khmaoch Luong RHS",
+			"sqm": "rhspkl",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Prei Khmaoch Luong RHS",
+			"sqm": "rhspkl",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Prei Khmaoch Luong RHS",
+			"sqm": "rhspkl",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Prei Khmaoch Luong RHS",
+			"sqm": "rhspkl",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Prei Khmaoch Luong RHS",
+			"sqm": "rhspkl",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "Porto",
+			"sqm": "Porto",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Porto",
+			"sqm": "Porto",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Porto",
+			"sqm": "Porto",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Porto",
+			"sqm": "Porto",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Southeast Angola",
+			"sqm": "seangola",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Southeast Angola",
+			"sqm": "seangola",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Southeast Angola",
+			"sqm": "seangola",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Southeast Angola",
+			"sqm": "seangola",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Yellowstone",
+			"sqm": "yellowstone",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Yellowstone",
+			"sqm": "yellowstone",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Yellowstone",
+			"sqm": "yellowstone",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Yellowstone",
+			"sqm": "yellowstone",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Tembelan",
+			"sqm": "Tembelan",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Tembelan",
+			"sqm": "Tembelan",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Tembelan",
+			"sqm": "Tembelan",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Tembelan",
+			"sqm": "Tembelan",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Tembelan",
+			"sqm": "Tembelan",
+			"mod" : "CUP Tropical SLA vs HIL-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Tropical_SLA_vs_HIL_and_RACS"
+		},
+		{
+			"island" : "Kujari",
+			"sqm": "Kujari",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Kujari",
+			"sqm": "Kujari",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Kujari",
+			"sqm": "Kujari",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Kujari",
+			"sqm": "Kujari",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		},
+	    {
+			"island" : "Utes",
+			"sqm": "utes",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+	    {
+			"island" : "Utes",
+			"sqm": "utes",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Utes",
+			"sqm": "utes",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Utes",
+			"sqm": "utes",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+	    {
+			"island" : "Bukovina",
+			"sqm": "Bootcamp_ACR",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+	    {
+			"island" : "Bukovina",
+			"sqm": "Bootcamp_ACR",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Bukovina",
+			"sqm": "Bootcamp_ACR",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Bukovina",
+			"sqm": "Bootcamp_ACR",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Vidda",
+			"sqm": "blud_vidda",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Vidda",
+			"sqm": "blud_vidda",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Vidda",
+			"sqm": "blud_vidda",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Vidda",
+			"sqm": "blud_vidda",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Vidda",
+			"sqm": "blud_vidda",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "MSKE",
+			"sqm": "mske",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "MSKE",
+			"sqm": "mske",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "MSKE",
+			"sqm": "mske",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "MSKE",
+			"sqm": "mske",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Napf Island",
+			"sqm": "napf",
+			"mod" : "CUP Woodland SLA vs USMC-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_SLA_vs_USMC_and_NAPA"
+		},
+		{
+			"island" : "Napf Island",
+			"sqm": "napf",
+			"mod" : "CUP Woodland RU vs BAF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_BAF_and_ION_PMC"
+		},
+		{
+			"island" : "Napf Island",
+			"sqm": "napf",
+			"mod" : "CUP Woodland USMC vs RU-NAPA",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_USMC_vs_RU_and_NAPA"
+		},
+		{
+			"island" : "Napf Island",
+			"sqm": "napf",
+			"mod" : "CUP Woodland RU vs USMC-RACS",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Woodland_RU_vs_USMC_and_RACS"
+		},
+		{
+			"island" : "Napf Island Winter",
+			"sqm": "NapfWinter",
+			"mod" : "CUP Winter RU vs CDF-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Winter_RU_vs_CDF_and_ION_PMC"
+		},
+		{
+			"island" : "Reshmaan",
+			"sqm": "reshmaan",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Reshmaan",
+			"sqm": "reshmaan",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Reshmaan",
+			"sqm": "reshmaan",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Reshmaan",
+			"sqm": "reshmaan",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"											   
+		},
+		{
+			"island" : "Anizay",
+			"sqm": "tem_anizay",
+			"mod" : "CUP Desert GER vs Taki Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_Ger_vs_Taki_Army_and_Taki_Rebels"
+		},
+		{
+			"island" : "Anizay",
+			"sqm": "tem_anizay",
+			"mod" : "CUP Desert RU vs US Army-ION PMC",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_ARMY_and_ION_PMC"
+		},
+		{
+			"island" : "Anizay",
+			"sqm": "tem_anizay",
+			"mod" : "CUP Desert RU vs BAF-ACR",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_BAF_and_ACR"
+		},
+		{
+			"island" : "Anizay",
+			"sqm": "tem_anizay",
+			"mod" : "CUP Desert RU vs US Army-Taki GUE",
+			"replace" : {},
+			"name" : "co10_Escape_CUP_Desert_RU_vs_US_Army_and_Taki_Rebels"
+		}
+	],
+	"Addons" : [
+		{
+			"name" : "CUP",
+			"mods" : ["CUP Sahrani USMC vs SLA-RACS","CUP Desert RU vs US Army-ION PMC","CUP Desert RU vs BAF-ACR","CUP Woodland RU vs BAF-ION PMC","CUP Woodland USMC vs RU-NAPA","CUP Desert GER vs Taki Army-Taki GUE","CUP Woodland SLA vs USMC-NAPA","CUP Winter RU vs CDF-ION PMC","CUP Woodland RU vs USMC-RACS","CUP Desert RU vs US Army-Taki GUE","CUP Tropical SLA vs HIL-RACS"]
+		}
+	]
+	
+}
