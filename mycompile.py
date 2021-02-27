@@ -1,11 +1,18 @@
 import json
 import os
+import argparse
 from shutil import copy, copyfile, copytree, ignore_patterns, rmtree
 import subprocess
 from datetime import datetime
 
-print("Loading config...") 
-with open('Configs/config.json') as json_data_file:
+parser = argparse.ArgumentParser(description='Compile and pack escape mod')
+parser.add_argument('-c', '--config_file', help='Specify config file to use', default='config.json')
+parser.add_argument('-f', '--full',help='Compile and pack mods', default=False, action="store_true")
+
+args = parser.parse_args()
+
+print('Loading config for ' + args.config_file + ' ...') 
+with open('Configs/' + args.config_file) as json_data_file:
     data = json.load(json_data_file)
 mods = data['Mods'];
 islands = data['Islands']
@@ -99,8 +106,11 @@ for mission in missions:
     copyfile(missiondir + ".pbo", data['PackedDir']+'/Missions/'+mission['name']+'.'+ missionIsland['class']+'.pbo') #Copy build artifact
 
 
-print(" EXIT!")
-exit()
+print(" Mod compilation finished !!!!")
+if not args.full:
+    exit()
+
+print("Packing in progress ...")
 
 t = []
 for m in missions:
