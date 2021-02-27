@@ -115,4 +115,5 @@ if ("Rangefinder" in (assignedItems _unit)) then {
 };
 if(A3E_Param_UseIntel==1) then {
 	[_unit] call A3E_fnc_AddIntel;
+	[_unit] call A3E_fnc_PUPUAddLaptop;
 };

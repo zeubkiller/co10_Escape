@@ -79,6 +79,7 @@ class CfgFunctions
 		class Intel
 		{
 			class AddIntel {};
+			class PUPUAddLaptop {};
 			class CollectIntel {};
 			class RevealPOI {};
 		};
@@ -111,6 +112,8 @@ class CfgFunctions
 			class RoadBlocks {};
 			class MissionFlow {};
 			class createStartpos {};
+			class PUPUSelectVIPOnce {};
+			class PUPUSelectVIPPeriodic {};
 		};
 		class Spawning
 		{

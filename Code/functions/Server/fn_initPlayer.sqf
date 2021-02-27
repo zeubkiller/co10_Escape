@@ -57,6 +57,8 @@ if(!_placed) then {
 uiSleep 0.5;
 diag_log format["Escape debug: %1 is now ready (serverside).", name _player];
 
+_player setvariable["A3E_PUPUPlayerIsVIP",false,true];//PUPU
+
 //A3E_PlayerInitializedServer means the player was placed in Prison and is ready for the "Intro"
 _player setvariable["A3E_PlayerInitializedServer",true,true];
 

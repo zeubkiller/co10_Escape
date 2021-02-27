@@ -20,7 +20,7 @@ class Params
             values[] = {0, 1, 2, 3, 4};
             texts[] = {"Cadet", "Easy", "Normal", "Hard", "Extreme"};
 			livechanges = 1;
-            default = 1;
+            default = 3;
 	};
 	class A3E_Param_EnemyFrequency
 	{
@@ -43,7 +43,7 @@ class Params
 		title="Enemy Spawn Distance";
 		values[]={500,800,1200};
 		texts[]={"Short (better performance, spawn in view possible)", "Medium", "Far (for good rigs)"};
-		default = 800;
+		default = 1200;
 	};
 	class A3E_Param_VillageSpawnCount
 	{
@@ -72,7 +72,7 @@ class Params
 	    title="Time Of Day";
 		values[]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26};
 		texts[]={"00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00","Random","Daytime","Nighttime"};
-		default = 8;
+		default = 7;
 		//function = "A3E_fnc_paramDaytime"; // (Optional) Function called when player joins, selected value is passed as an argument
 	};
 	class A3E_Param_TimeMultiplier	
@@ -82,13 +82,13 @@ class Params
 		texts[]={"1:1 (Normal)","1:6 (Day = 4 Hours)","1:12 (Day = 2 Hours)","1:24 (Day = 1 Hour)","1:36 (Day = 40 Minutes)"};
 		livechanges = 1;
 		code = "if(isserver) then {setTimeMultiplier _this;};";
-		default = 6;
+		default = 36;
 	};
 	class A3E_Param_Weather {
 		title="Weather";
 		values[] = {0,1,2,3,4,-1};
 		texts[] = {"Clear","Overcast","Rain","Fog","Storm","Random"};
-		default = 0;
+		default = -1;
 	};
 	class A3E_Param_DynamicWeather {
 		title="Dynamic Weather";
@@ -101,7 +101,7 @@ class Params
 		title="Grass Visibility";
 		values[]={50,25,12,6,2};
 		texts[]={"No Grass", "Proximity", "Normal", "Far", "Very Far"};
-		default = 12;
+		default = 50;
 	};
 	class A3E_Param_Spacer3
     {
@@ -153,14 +153,14 @@ class Params
 		title="War-Torn mode (CSAT and AAF are fighting each other)";
 		values[]={0,1};
 		texts[]={"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class A3E_Param_ReviveView
 	{
 		title="Unconscious View";
 		values[]={0,1};
 		texts[]={"First-/Third-Person","Hindsight Cam"};
-		default = 1;
+		default = 0;
 	};
 	class A3E_Param_ExtractionSelection
 	{
@@ -175,7 +175,7 @@ class Params
 		title="Additional Weaponbox (with less random content) at depots";
 		values[]={0,1};
 		texts[]={"Off", "On"};
-		default = 0;
+		default = 1;
 	};
 	class A3E_Param_NoNightvision
 	{
@@ -197,7 +197,7 @@ class Params
 		title="Send statistics at mission end";
 		values[]={0,1};
 		texts[]={"No", "Yes"};
-		default = 1;
+		default = 0;
 	};
 	class A3E_Param_Spacer5
     {
@@ -267,7 +267,7 @@ class Params
 		title="Mag repack";
 		values[]={0,1};
 		texts[]={"Disabled", "Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class A3E_Param_Spacer7
     {

@@ -88,7 +88,7 @@ if(abs(rain-(_currentTemplate select 1))<0.2 || _initial) then {
 _weatherTransitionTime setfog (_currentTemplate select 2);
 _weatherTransitionTime setlightnings (_currentTemplate select 3);
 
-systemchat str _currentTemplate;
+//systemchat str _currentTemplate;
 
 if(_initial) then {
 	skiptime -24;
@@ -96,7 +96,9 @@ if(_initial) then {
 	forceWeatherChange;
 };
 //Sleep _weatherTransitionTime ingame seconds
-systemchat ("Weatherchange in "+str (_weatherTransitionTime/A3E_Param_TimeMultiplier) + " seconds");
+if (_weatherTransitionTime!=0) then {
+	systemchat ("Weatherchange in "+str (_weatherTransitionTime/A3E_Param_TimeMultiplier) + " seconds");
+};
 sleep (_weatherTransitionTime/A3E_Param_TimeMultiplier);
 
 //Keep the weather 10 realtime minutes
@@ -106,7 +108,8 @@ _weatherWaitTime*A3E_Param_TimeMultiplier setfog (_currentTemplate select 2);
 _weatherWaitTime*A3E_Param_TimeMultiplier setlightnings (_currentTemplate select 3);
 
 //Keep the weather 10 minutes
-systemchat ("Keeping weather for "+str (_weatherWaitTime) + " seconds");
+//systemchat ("Keeping weather for "+str (_weatherWaitTime) + " seconds");
+systemchat ("Keeping weather for "+str (_weatherWaitTime/60) + " minutes");
 sleep _weatherWaitTime;
 
 if(A3E_Param_DynamicWeather == 1) then {

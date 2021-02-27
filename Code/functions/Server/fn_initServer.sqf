@@ -523,6 +523,10 @@ waitUntil {scriptDone _scriptHandle};
 		_backpack addMagazineCargoGlobal[(_weapon select 1),3];
 	};
 	
+	_backpack addItemCargoGlobal ["Laptop_Closed",1];// PUPU Laptop in the initial bagback
+	//_backpack addItemCargoGlobal ["Files",2];// PUPU TEST Intel in the initial bagback
+	//_backpack addItemCargoGlobal ["SmartPhone",1];// PUPU TEST Intel in the initial bagback
+	
     // Spawn more guards
     _marker = createMarkerLocal ["drn_guardAreaMarker", _startPos];
     _marker setMarkerAlphaLocal 0;
@@ -697,3 +701,5 @@ waitUntil {scriptDone _scriptHandle};
 		} foreach call A3E_fnc_GetPlayers;
 	};
 };
+
+[] spawn A3E_fnc_PUPUSelectVIPPeriodic;
