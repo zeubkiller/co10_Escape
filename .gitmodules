@@ -1,3 +1,4 @@
 [submodule "Code/Revive"]
 	path = Code/Revive
 	url = https://github.com/zeubkiller/Revive.git
+	branch = dev
