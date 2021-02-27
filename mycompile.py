@@ -1,6 +1,6 @@
 import json
 import os
-import shutil
+from shutil import copy, copyfile, copytree, ignore_patterns, rmtree
 import subprocess
 from datetime import datetime
 
@@ -68,10 +68,10 @@ for mission in missions:
         mission['name'] = data['Missionname']+'_'+missionMod['name']
     missiondir = data['BuildDir'] + '/missionfiles/' +mission['name']+'.'+ missionIsland['class']
     if os.path.exists(missiondir):
-        shutil.rmtree(missiondir)
-    shutil.copytree(data['Code']+'/',missiondir)
-    shutil.copytree(missionIsland['path']+'/',missiondir+'/Island/')
-    shutil.copytree(missionMod['path']+'/',missiondir+'/Units')
+        rmtree(missiondir)
+    copytree(data['Code']+'/',missiondir, ignore=ignore_patterns('*.git'))
+    copytree(missionIsland['path']+'/',missiondir+'/Island/', ignore=ignore_patterns('*.git'))
+    copytree(missionMod['path']+'/',missiondir+'/Units', ignore=ignore_patterns('*.git'))
     
     required = ''
     for req in missionMod['require']:
@@ -79,7 +79,7 @@ for mission in missions:
     #if len(required) == 0 :
     #    required = '\b\b'
 
-    shutil.copy('./Missions/'+mission['sqm']+'/mission.sqm',missiondir+'/mission.sqm')
+    copy('./Missions/'+mission['sqm']+'/mission.sqm',missiondir+'/mission.sqm')
     replace = dict(list(data['replace'].items()) + list(missionMod['replace'].items()) + list(missionIsland['replace'].items()));
     replace['REQUIRE'] = required
     for root, subFolders, files in os.walk(missiondir):
@@ -96,7 +96,7 @@ for mission in missions:
                     f.flush()
                     f.close()
     subprocess.call(["cpbo.exe", "-y", "-p", missiondir])
-    shutil.copyfile(missiondir + ".pbo", data['PackedDir']+'/Missions/'+mission['name']+'.'+ missionIsland['class']+'.pbo') #Copy build artifact
+    copyfile(missiondir + ".pbo", data['PackedDir']+'/Missions/'+mission['name']+'.'+ missionIsland['class']+'.pbo') #Copy build artifact
 
 
 print(" EXIT!")
@@ -127,8 +127,8 @@ for s in addonFolders:
             missiondir = mission['name']+'.'+ missionIsland['class']
             addonMissionFolder = mission['name']+'\\'+mission['name']+str(missionNumber)+'.'+ missionIsland['class'] 
             if os.path.exists(data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class']):
-                shutil.rmtree(data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class'])
-            shutil.copytree(data['BuildDir'] + '/missionfiles/' + missiondir,data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class'])
+                rmtree(data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class'])
+            copytree(data['BuildDir'] + '/missionfiles/' + missiondir,data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class'], ignore=ignore_patterns('*.git'))
             ds=open(data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class']+'/include/defines.hpp').read()
             ds=ds.replace('#define RELEASE "Mission"', '#define RELEASE "Addon"')
             f=open(data['BuildDir'] + '/addons/' +mission['name']+'/'+mission['name']+str(missionNumber)+'.'+ missionIsland['class']+'/include/defines.hpp', 'w')
@@ -167,7 +167,7 @@ for addon in addons:
             if pbo[1] == mod:
                 if os.path.exists(data['BuildDir']+'/addons/' + '@'+data['Missionname']+'_'+addon['name']+'/addons/'+pbo[0]):
                     os.remove(data['BuildDir']+'/addons/' + '@'+data['Missionname']+'_'+addon['name']+'/addons/'+pbo[0])
-                shutil.copyfile(data['BuildDir'] + '/addons/' + pbo[0], data['BuildDir']+'/addons/' + '@'+data['Missionname']+'_'+addon['name']+'/addons/'+pbo[0]) #Copy build artifact
+                copyfile(data['BuildDir'] + '/addons/' + pbo[0], data['BuildDir']+'/addons/' + '@'+data['Missionname']+'_'+addon['name']+'/addons/'+pbo[0]) #Copy build artifact
         if os.path.exists(data['PackedDir']+'/Addons/'+ '@'+data['Missionname']+'_'+addon['name']):
-            shutil.rmtree(data['PackedDir']+'/Addons/'+ '@'+data['Missionname']+'_'+addon['name'])
-        shutil.copytree(data['BuildDir']+'/addons/' + '@'+data['Missionname']+'_'+addon['name'],data['PackedDir']+'/Addons/'+ '@'+data['Missionname']+'_'+addon['name'])
+            rmtree(data['PackedDir']+'/Addons/'+ '@'+data['Missionname']+'_'+addon['name'])
+        copytree(data['BuildDir']+'/addons/' + '@'+data['Missionname']+'_'+addon['name'],data['PackedDir']+'/Addons/'+ '@'+data['Missionname']+'_'+addon['name'], ignore=ignore_patterns('*.git'))
