@@ -4,17 +4,27 @@ import argparse
 from shutil import copy, copyfile, copytree, ignore_patterns, rmtree
 import subprocess
 from datetime import datetime
+from subprocess import call
 
 parser = argparse.ArgumentParser(description='Compile and pack escape mod')
 parser.add_argument('--mod', help='Specify mod to use', default='')
 parser.add_argument('-m', '--mission', help='Specify mission to use', default='')
 parser.add_argument('-i', '--island', help='Specify island to use', default='')
-parser.add_argument('-a', '--addon', help='Specify addon to use', default='')
+# parser.add_argument('-a', '--addon', help='Specify addon to use', default='')
 parser.add_argument('-f', '--full',help='Compile and pack mods', default=False, action="store_true")
+parser.add_argument('-s', '--symlink',help='Create symlink in arma3 MpMission folder', default=False, action="store_true")
 
 args = parser.parse_args()
 
-print('Loading config ...') 
+print('Loading config ...')
+with open('Configs/config_local.json') as json_data_file:
+    config_local_data = json.load(json_data_file)
+if(not os.path.exists(config_local_data['arma3_editor_MpMissionPath'])):
+    print("Arma3 mpMission path is wrong or empty")
+    exit()
+
+arma3_MpMission_path = config_local_data['arma3_editor_MpMissionPath']
+
 with open('Configs/config.json') as json_data_file:
     data = json.load(json_data_file)
 mods = data['Mods'];
@@ -35,15 +45,15 @@ data['replace']['VERSION'] += ' dev ' + datetime.today().strftime("%y%m%d %H%M")
 data['replace']['RELEASE'] = 'Mission'
 
 if args.mod != '':
-    print("Filter mods with " + args.mod)
-    mods = [m for m in mods if m['name'] == args.mod]
-    if mods==[]:
+    print("Filter missions by mods with " + args.mod)
+    missions = [m for m in missions if m['mod'] == args.mod]
+    if missions==[]:
         print("Error No match for mod " + args.mod)
         exit()
 if args.island != '':
-    print("Filter islands with " + args.island)
-    islands = [m for m in islands if m['name'] == args.island]
-    if islands==[]:
+    print("Filter missions by islands with " + args.island)
+    missions = [m for m in missions if m['island'] == args.island]
+    if missions==[]:
         print("Error No match for island " + args.island)
         exit()
 if args.mission != '':
@@ -52,15 +62,12 @@ if args.mission != '':
     if missions==[]:
         print("Error No match for mission " + args.mission)
         exit()
-    #Filter mission by island too
-    if args.island != '':
-        missions = [m for m in missions if m['island'] == args.island]
-if args.addon != '':
-    print("Filter addons with " + args.addon)
-    addons = [m for m in addons if m['name'] == args.addon]
-    if addons==[]:
-        print("Error No match for addon " + args.addon)
-        exit()
+# if args.addon != '':
+#     print("Filter addons with " + args.addon)
+#     addons = [m for m in addons if m['name'] == args.addon]
+#     if addons==[]:
+#         print("Error No match for addon " + args.addon)
+#         exit()
 
 print('making DIR')
 for directory in [data['BuildDir'], data['PackedDir'], data['PackedDir']+'/Addons', data['PackedDir']+'/Missions']:
@@ -103,13 +110,21 @@ for mission in missions:
         raise NameError('Island was not found')
     if not 'name' in mission:
         mission['name'] = data['Missionname']+'_'+missionMod['name']
-    missiondir = data['BuildDir'] + '/missionfiles/' +mission['name']+'.'+ missionIsland['class']
+    missionFolderName = mission['name']+'.'+ missionIsland['class']
+    missiondir = data['BuildDir'] + '/missionfiles/' + missionFolderName
     if os.path.exists(missiondir):
         rmtree(missiondir)
     copytree(data['Code']+'/',missiondir, ignore=ignore_patterns('*.git'))
     copytree(missionIsland['path']+'/',missiondir+'/Island/', ignore=ignore_patterns('*.git'))
     copytree(missionMod['path']+'/',missiondir+'/Units', ignore=ignore_patterns('*.git'))
     
+    # Create symlink in MPMision folder to test change in live
+    arma3_mpmission_mission_folder = os.path.join(arma3_MpMission_path, missionFolderName)
+    if(args.symlink and not os.path.exists(arma3_mpmission_mission_folder)):
+        print('################ Command to run for symlink: ################')
+        print('mklink /J "' + arma3_mpmission_mission_folder + '" "' + os.path.abspath(missiondir) + '"')
+        print('#############################################################')
+
     required = ''
     for req in missionMod['require']:
         required = required + '"'+ req + '",'
@@ -126,17 +141,19 @@ for mission in missions:
                 s=open(os.path.join(root, rfile)).read()
                 for key in replace:
                     if '{* '+key+' *}' in s:
-                        print('Found occurance of',key,'in file. Replacing with',replace[key])
+                        # print('Found occurrence of',key,'in file. Replacing with',replace[key])
                         s=s.replace('{* '+key+' *}', replace[key])
                     f=open(os.path.join(root, rfile), 'w')
                     f.write(s)
                     f.flush()
                     f.close()
-    subprocess.call(["cpbo.exe", "-y", "-p", missiondir])
+    print("Cpbo extraction")
+    f = open(os.devnull, 'w') #Silence the cpbo output
+    subprocess.call(["cpbo.exe", "-y", "-p", missiondir], stdout=f)
     copyfile(missiondir + ".pbo", data['PackedDir']+'/Missions/'+mission['name']+'.'+ missionIsland['class']+'.pbo') #Copy build artifact
 
 
-print(" Mod compilation finished !!!!")
+print("**************************** Mod compilation finished !!!! ****************************")
 if not args.full:
     exit()
 
