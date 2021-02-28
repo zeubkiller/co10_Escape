@@ -26,6 +26,9 @@ Set-up your local
     - You can find it here https://www.armaholic.com/page.php?id=411
 - Go in `Code`
 - Clone the Revive project https://github.com/zeubkiller/Revive
+- Create a folder `Packed` at the root
+- Copy the `Config/config_local_example.json`
+- Rename it `config_local.json` and update the values for your local config
 - Run my_compile.py
 - Find your Arma3 editor `missionmp` folder (Most of the time in `C:\Users\YourName\Documents\Arma 3\mpmissions`)
 - Create a harlink to one of the mission folder found in `Build/Mission`
