@@ -126,6 +126,14 @@ class Params
 		livechanges = 1;
 		default = 20;
 	};
+	class A3E_Param_VIPMode
+	{
+		title="Protect the VIP";
+		values[]={0,1};
+		texts[]={"Disabled","Enabled"};
+		default = 0;
+		tooltip = "Randomly one player will become the VIP. The squad will need to protect him. He will be the only one that can gather intell.";
+	};
 	class A3E_Param_RevealMarkers
 	{
 		title="Display of markers on map";

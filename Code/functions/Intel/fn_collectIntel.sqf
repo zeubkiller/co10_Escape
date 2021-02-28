@@ -1,14 +1,16 @@
 params ["_unit", "_container"];
 private _intelItems = missionnamespace getvariable ["A3E_IntelItems",["Files","FileTopSecret","FilesSecret","FlashDisk","DocumentsSecret","Wallet_ID","FileNetworkStructure","MobilePhone","SmartPhone"]];
 private _digitalIntelItems = ["FlashDisk", "MobilePhone", "SmartPhone"];
+private _isVIPMode = missionnamespace getvariable ["A3E_Param_VIPMode", false];
+
 if(A3E_Param_UseIntel==1) then {
 
 	private _intels = magazines _unit select {_x in _intelItems};
 	if (count _intels != 0) then {
 	
-		_is_vip = (_unit getvariable ["A3E_PUPUPlayerIsVIP",false]);
-		//format["A3E_PUPUPlayerIsVIP = %1", _is_vip] remoteexec ["systemchat",0];
-		if (_is_vip) then {
+		_is_player_vip = (_unit getvariable ["A3E_PUPUPlayerIsVIP",false]);
+		//format["A3E_PUPUPlayerIsVIP = %1", _is_player_vip] remoteexec ["systemchat",0];
+		if ((_isVIPMode == 0) || (_is_player_vip)) then {
 		
 			private _has_digital_but_no_laptop = false;
 			private _reveal_intels = [];
